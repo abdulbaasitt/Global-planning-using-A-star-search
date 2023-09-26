@@ -10,10 +10,6 @@ When cloning this project, be sure to use the `--recurse-submodules` flag. Using
 ```
 git clone https://github.com/abdulbaasitt/Global-planning-using-A-star-search.git --recurse-submodules
 ```
-<!-- or with SSH:
-```
-<!-- git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules -->
-``` -->
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
