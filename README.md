@@ -10,10 +10,10 @@ When cloning this project, be sure to use the `--recurse-submodules` flag. Using
 ```
 git clone https://github.com/abdulbaasitt/Global-planning-using-A-star-search.git --recurse-submodules
 ```
-or with SSH:
+<!-- or with SSH:
 ```
 <!-- git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules -->
-```
+``` -->
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
@@ -75,7 +75,8 @@ The testing executable is also placed in the `build` directory. From within `bui
     If any packages are missing try to install packages using 
     ```
     brew install pkg-config -->
-    ```
+    <!-- ``` -->
+
  * For Ubuntu Linux IO2D installation errors, follow the given steps:
    ```
 	sudo apt update
