@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repo contains the code for the Route Planning project.
 
 <img src="map.png" width="600" height="450" />
 
@@ -8,11 +8,11 @@ This repo contains the starter code for the Route Planning project.
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/abdulbaasitt/Global-planning-using-A-star-search.git --recurse-submodules
 ```
 or with SSH:
 ```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+<!-- git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules -->
 ```
 
 ## Dependencies for Running Locally
@@ -53,6 +53,8 @@ Or to specify a map file:
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
 
+You can download osm_file for any city or area from https://www.openstreetmap.org/ and export the file in .osm format
+
 ## Testing
 
 The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
@@ -61,8 +63,8 @@ The testing executable is also placed in the `build` directory. From within `bui
 ```
 
 ## Troubleshooting
-* Some students have reported issues in cmake to find io2d packages, make sure you have downloaded [this](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md#xcode-and-libc).
-* For MAC Users cmake issues: Comment these lines from CMakeLists.txt under P0267_RefImpl
+<!-- * Some students have reported issues in cmake to find io2d packages, make sure you have downloaded [this](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md#xcode-and-libc). -->
+<!-- * For MAC Users cmake issues: Comment these lines from CMakeLists.txt under P0267_RefImpl
     ```
     if( NOT DEFINED IO2D_WITHOUT_SAMPLES )
 	     add_subdirectory(P0267_RefImpl/Samples)
@@ -72,7 +74,7 @@ The testing executable is also placed in the `build` directory. From within `bui
     
     If any packages are missing try to install packages using 
     ```
-    brew install pkg-config
+    brew install pkg-config -->
     ```
  * For Ubuntu Linux IO2D installation errors, follow the given steps:
    ```
@@ -92,13 +94,13 @@ The testing executable is also placed in the `build` directory. From within `bui
 	sudo make install
    ```
      
- * If you are working on windows and unable to install IO2D:
+ <!-- * If you are working on windows and unable to install IO2D:
       * Enable WSL (Windows Subsystem for Linux) and use a distribution like [Ubuntu](https://ubuntu.com/wsl).(available from the windows store): 
       * Install the required dependencies (compiler, cmake etc.) in the WSL(as mentioned above for ubuntu)
       * Configure CLion to use the WSL [toolchain](https://www.jetbrains.com/help/clion/how-to-use-wsl-development-environment-in-product.html#wsl-tooclhain)
       * Use the WSL toolchain to build the project
       * If you are still facing errors, visit this [link](https://github.com/udacity/CppND-Route-Planning-Project/issues/9).
-     
+      -->
 
 * If you are facing errors with --config try to remove -- from the command.
 
